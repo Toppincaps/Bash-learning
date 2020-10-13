@@ -6,7 +6,7 @@ TESTUSER=ansible
 #
 if grep $TESTUSER /etc/passwd
 then 
-  echo "$TESTUSER exists on this sysem."
+  echo "$TESTUSER exists on this system."
 #
 elif ls -d /home/$TESTUSER
 then
